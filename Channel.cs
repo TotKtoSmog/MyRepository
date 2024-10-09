@@ -18,11 +18,5 @@ namespace Parser
             ChannelTitle = "Empty";
             Users = [];
         }
-        public Channel(long channelId, string channelTitle, List<User> users)
-        {
-            ChannelId = channelId;
-            ChannelTitle = channelTitle;
-            Users = users;
-        }
     }
 }
