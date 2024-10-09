@@ -12,7 +12,7 @@ namespace Parser
         public User() 
         {
             UserId = 0;
-            TgName = "";
+            TgName = "Empty";
         }
         public User(long userId, string tgName)
         {
