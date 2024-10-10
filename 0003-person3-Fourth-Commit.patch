@@ -1,0 +1,24 @@
+From 21d123ae785ba7355fc03d3528a498f1fd6a07a7 Mon Sep 17 00:00:00 2001
+From: Alexey Ustinov <TotKtoSmog513@gmail.com>
+Date: Thu, 10 Oct 2024 23:46:29 +0300
+Subject: [PATCH 3/3] person3 Fourth Commit
+
+---
+ User.cs | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/User.cs b/User.cs
+index 7599a89..a390951 100644
+--- a/User.cs
++++ b/User.cs
+@@ -19,5 +19,6 @@ namespace Parser
+             UserId = userId;
+             TgName = tgName;
+         }
++        public void SetTgName(string tgName) => TgName = tgName;
+     }
+ }
+\ No newline at end of file
+-- 
+2.39.0.windows.2
+

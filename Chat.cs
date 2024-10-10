@@ -28,5 +28,6 @@ namespace Parser
             ChatTitle = "Empty";
             Users = [];
         }
+        public void SetChatTitle(string chatTitle) => ChatTitle = chatTitle;
     }
 }

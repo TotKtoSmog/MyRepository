@@ -19,5 +19,6 @@ namespace Parser
             UserId = userId;
             TgName = tgName;
         }
+        public void SetTgName(string tgName) => TgName = tgName;
     }
 }
