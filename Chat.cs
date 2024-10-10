@@ -14,9 +14,16 @@ namespace Parser
         public long ChannelId { get; set; }
         [XmlElement ("Channel_Users")]
         public List<User> Users;
-        public Channel() 
+        public Chat() 
         {
             ChatlId = 0;
+            ChannelId = 0;
+            ChatTitle = "Empty";
+            Users = [];
+        }
+        public Chat(int chatId) 
+        {
+            ChatlId = chatId;
             ChannelId = 0;
             ChatTitle = "Empty";
             Users = [];
