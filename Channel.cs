@@ -24,5 +24,6 @@ namespace Parser
             ChannelTitle = channelTitle;
             Users = users;
         }
+        public void SetChannelTitle(string channelTitle) => ChannelTitle = channelTitle;
     }
 }
