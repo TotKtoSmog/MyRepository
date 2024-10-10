@@ -9,7 +9,7 @@ namespace Parser
 	{
 		public static void Main(string[] args)
 		{
-			XMLHandler.WriteXML(new User(1000,"Test"));
+			//XMLHandler.WriteXML(new User(1000,"Test"));
 		}
 	}
 }
